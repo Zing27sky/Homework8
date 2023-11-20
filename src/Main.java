@@ -38,20 +38,23 @@ public class Main {
         for (int i = q.length - 1; i >= 0; i--) {
             if (i == 0) {
                 System.out.println(q[i]);
+            } else {
+                System.out.print(q[i] + ", ");
             }
-            System.out.print(q[i] + ", ");
         }
         for (int i = w.length - 1; i >= 0; i--) {
             if (i == 0) {
                 System.out.println(w[i]);
+            } else {
+                System.out.print(w[i] + ", ");
             }
-            System.out.print(w[i] + ", ");
         }
         for (int i = e.length - 1; i >= 0; i--) {
             if (i == 0) {
                 System.out.println(e[i]);
+            } else {
+                System.out.print(e[i] + ", ");
             }
-            System.out.print(e[i] + ", ");
         }
         //Задача 4
         System.out.println("Задача 4");
