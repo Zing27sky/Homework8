@@ -12,20 +12,50 @@ public class Main {
         int[] e = {156, 15, 285, 13, 21};
         // Задача 2
         System.out.println("Задача 2");
-        System.out.printf(q[0] + ", " + q[1] + ", " + q[2]);
-        System.out.println();
-        System.out.printf(w[0] + ", " + w[1] + ", " + w[2]);
-        System.out.println();
-        System.out.printf(e[0] + ", " + e[1] + ", " + e[2] + ", " + e[3] + ", " + e[4]);
-        System.out.println();
+        for (int i = 0; i < q.length; i++) {
+            if (i == q.length - 1) {
+                System.out.println(q[i]);
+                break;
+            }
+            System.out.print(q[i] + " ");
+        }
+        for (int i = 0; i < w.length; i++) {
+            if (i == w.length - 1) {
+                System.out.println(w[i]);
+                break;
+            }
+            System.out.print(w[i] + " ");
+        }
+        for (int i = 0; i < e.length; i++) {
+            if (i == e.length - 1) {
+                System.out.println(e[i]);
+                break;
+            }
+            System.out.print(e[i] + " ");
+        }
         //Задача 3
         System.out.println("Задача 3");
-        System.out.printf(q[2] + ", " + q[1] + ", " + q[0]);
-        System.out.println();
-        System.out.printf(w[2] + ", " + w[1] + ", " + w[0]);
-        System.out.println();
-        System.out.printf(e[4] + ", " + e[3] + ", " + e[2] + ", " + e[1] + ", " + e[0]);
-        System.out.println();
+        for (int i = 2; i < q.length; i--) {
+            if (i == q.length +1 ) {
+                System.out.println(q[i]);
+                break;
+            }
+            System.out.print(q[i] + " ");
+        }
+        for (int i = 0; i < w.length; i++) {
+            if (i == w.length - 1) {
+                System.out.println(w[i]);
+                break;
+            }
+            System.out.print(w[i] + " ");
+        }
+        for (int i = 0; i < e.length; i++) {
+            if (i == e.length - 1) {
+                System.out.println(e[i]);
+                break;
+            }
+            System.out.print(e[i] + " ");
+        }
         //Задача 4
         System.out.println("Задача 4");
         for (int i = 0; i < q.length; i++)
