@@ -17,44 +17,41 @@ public class Main {
                 System.out.println(q[i]);
                 break;
             }
-            System.out.print(q[i] + " ");
+            System.out.print(q[i] + ", ");
         }
         for (int i = 0; i < w.length; i++) {
             if (i == w.length - 1) {
                 System.out.println(w[i]);
                 break;
             }
-            System.out.print(w[i] + " ");
+            System.out.print(w[i] + ", ");
         }
         for (int i = 0; i < e.length; i++) {
             if (i == e.length - 1) {
                 System.out.println(e[i]);
                 break;
             }
-            System.out.print(e[i] + " ");
+            System.out.print(e[i] + ", ");
         }
         //Задача 3
         System.out.println("Задача 3");
-        for (int i = 2; i < q.length; i--) {
-            if (i == q.length - 3) {
+        for (int i = q.length - 1; i >= 0; i--) {
+            if (i == 0) {
                 System.out.println(q[i]);
-                break;
             }
-            System.out.print(q[i] + " ");
+            System.out.print(q[i] + ", ");
         }
-        for (int i = 2; i < w.length; i--) {
-            if (i == w.length - 3) {
+        for (int i = w.length - 1; i >= 0; i--) {
+            if (i == 0) {
                 System.out.println(w[i]);
-                break;
             }
-            System.out.print(w[i] + " ");
+            System.out.print(w[i] + ", ");
         }
-        for (int i = 4; i < e.length; i--) {
-            if (i == e.length - 5) {
+        for (int i = e.length - 1; i >= 0; i--) {
+            if (i == 0) {
                 System.out.println(e[i]);
-                break;
             }
-            System.out.print(e[i] + " ");
+            System.out.print(e[i] + ", ");
         }
         //Задача 4
         System.out.println("Задача 4");
